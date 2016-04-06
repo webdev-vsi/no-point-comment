@@ -1,0 +1,12 @@
+{
+"name":"No Point commnets",
+"version":"1.0",
+"manifest_version": 2,
+"description":"Removes comment section from point and placing a cute kitty",
+"browser_action": {
+   "default_icon": "icon.png"
+ },
+"content_scripts":[{
+"matches":["http://point.md/*"],
+"js":["script.js"]
+}]}
