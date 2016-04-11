@@ -7,6 +7,6 @@
    "default_icon": "icon.png"
  },
 "content_scripts":[{
-"matches":["http://point.md/*","https://point.md/*"],
+"matches":["http://point.md/*"],
 "js":["script.js"]
 }]}
